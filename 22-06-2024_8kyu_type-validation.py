@@ -11,3 +11,12 @@ Examples:
 "42", "int"  --> False"""
 def type_validation(variable, _type): 
     return _type in str(type(variable))
+
+"""
+####Soluciones alternativas#########
+def type_validation(variable, _type):
+    return type(variable).__name__ == _type
+
+def type_validation(variable, type): 
+    return variable.__class__.__name__ == type
+"""
