@@ -1,7 +1,6 @@
 """A Nice array is defined to be an array where for every value n in the array, there is also an element n - 1 or n + 1 in the array.
 
 examples:
-
 [2, 10, 9, 3] is a nice array because
 
  2 =  3 - 1
