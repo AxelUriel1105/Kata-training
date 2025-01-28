@@ -13,3 +13,4 @@ def chained(functions):
             arg = f
         return arg
     return func
+
