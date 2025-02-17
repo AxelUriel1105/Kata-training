@@ -10,5 +10,5 @@ remove("Hi! !Hi Hi!") === ""
 remove("Hi! Hi!! Hi!") === "Hi!!"
 remove("Hi! !Hi! Hi!") === "!Hi!"
 """
-def remove(s):
+def     (s):
     return ' '.join(word for word in s.split() if not word.count('!')==1)
