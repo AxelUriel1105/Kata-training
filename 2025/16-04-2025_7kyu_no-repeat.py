@@ -12,4 +12,4 @@ Note: ONLY letters from the english alphabet will be used as input There will AL
 """
 from collections import Counter
 def no_repeat(string):
-    return sorted(Counter(string).items(), key=lambda x: (x[1],string.index))[0][0]
+    return sorted(Counter(string).items(), key=lambda x: (x[1],string.index(x[0])))[0][0]
