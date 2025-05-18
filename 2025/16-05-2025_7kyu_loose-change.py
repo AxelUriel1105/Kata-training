@@ -5,7 +5,7 @@ In this Kata, you must create a function that takes an amount of US currency in 
 The only coin denominations considered in this exercise are: Pennies (1¢), Nickels (5¢), Dimes (10¢) and Quarters (25¢).
 
 Therefore, the dictionary returned should contain exactly 4 key/value pairs.
-
+    
 Notes:
 
 If the function is passed either 0 or a negative number, the function should return the dictionary with all values equal to 0.
