@@ -17,7 +17,7 @@ Examples
 greek_comparator('alpha', 'beta')   <  0
 greek_comparator('psi', 'psi')      == 0
 greek_comparator('upsilon', 'rho')  >  0"""
-from preloaded import greek_alphabet
+#from preloaded import greek_alphabet
 
 
 def greek_comparator(lhs, rhs):
