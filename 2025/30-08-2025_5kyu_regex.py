@@ -7,5 +7,5 @@ contains a digit
 only contains alphanumeric characters (note that '_' is not alphanumeric)
 """
 
-regex = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)$[A-Za-z0-9]{6,}"
+regex = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z0-9]{6,}$"
 
