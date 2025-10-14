@@ -21,4 +21,4 @@ def date_nb_days(a0, a, p):
         days +=1
         amount = a0*(1+(p/36000))**days
         
-    return datetime.datetime.strftime(datetime.date(2016,1,1)+datetime.timedelta(days=days),'%Y-%m-%d')
+    return datetime.datetime.strftime(datetime.date(2016,1,1)+datetime.timedelta(days=days),'%Y-%m-%d') 
